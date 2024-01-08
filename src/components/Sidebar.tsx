@@ -4,7 +4,6 @@ import Treeview from "./Treeview";
 import { Resizable } from "re-resizable";
 import "./Sidebar.css";
 import CollapsePanel from "antd/es/collapse/CollapsePanel";
-type Props = {};
 
 export default function Sidebar() {
   const [clpsHeight, setClpsHeight] = useState<number>(277);
@@ -42,14 +41,6 @@ export default function Sidebar() {
       className: "cat2",
     },
   ];
-  // const cat2: CollapseProps["items"] = [
-  //   {
-  //     key: "2",
-  //     label: "Category2",
-  //     children: <Treeview />,
-  //     className: "cat2",
-  //   },
-  // ];
 
   return (
     <ConfigProvider
@@ -74,8 +65,6 @@ export default function Sidebar() {
         items={cat1}
         defaultActiveKey={[]}
       />
-      {/*  */}
-      {/* <Collapse size="small" items={cat2} defaultActiveKey={[]} /> */}
     </ConfigProvider>
   );
 }
