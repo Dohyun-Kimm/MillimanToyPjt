@@ -1,0 +1,9 @@
+.Titlebar {
+  /* width: 960px; */
+  height: 30px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  -webkit-app-region: drag;
+}

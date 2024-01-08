@@ -1,0 +1,17 @@
+#root {
+  height: 630px;
+}
+.App {
+  font-size: 10px !important;
+  margin: 0px;
+  height: 99%;
+}
+
+.body {
+  -webkit-app-region: no-drag;
+}
+.sideBar {
+  width: 230px;
+  height: 600px;
+  border-right: grey solid 0.5px;
+}
